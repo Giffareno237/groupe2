@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/moyenne.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+   
+</head>
+<body>
+
+    <header>
+        <div class="page-header">
+            <div class="row">
+                <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 logo" > <img src="restaurant.png" alt="logo restaurant"><a href="index.html"></a> </div>
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> <a href="index.html">Home</a> </div>
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> About </div>
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> Menu </div>
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> Blog </div>
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> Contact </div>
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> order online </div>
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> <a href="page1.html">Calcul</a> </div>  
+            </div>
+    
+          
+        
+        </div>
+    </header>
+
+
+    <form class="f" action="" class="calcule" onsubmit="return false;">
+        <div class="calcule">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <h3><b><u>RELEVE DE NOTES</u></b></h3>
+                <p>
+                    <label for="note francais">Entrez la note de francais:</label>
+                    <input type="number" class="form-control" id="f1">
+                </p>
+                <p>
+                    <label for="note anglais">Entrez la note d'Anglais:</label>
+                    <input type="number" min="0" max="20" class="form-control" id="a1">
+                </p>
+                <p>
+                    <label for="note maths">Entrez la note de Mathematique:</label>
+                    <input type="number" min="0" max="20" class="form-control" id="m1">
+                </p>
+                <button style="background-color: rosybrown;" onclick="moyenne()">Calculer</button>
+                 <label for="resultat"></label>
+                <input type="text" id="c1">
+            </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">   
+                </div>
+        </div>
+    </form><br><br>
+
+    <footer class="footer">
+        <div class="cost-foot">
+            <div class="logo">
+                <img src="restaurant.png" alt="Restaurant Logo">
+            </div>
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>Events</li>
+                    <li>Testimonial</li>
+                    <li>Categories</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Registration</li>
+                    <li>Login</li>
+                    <li>Policy</li>
+                    <li>Terms & Conditions</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Instagram Feed</h3>
+            <div class="instagram-feed">
+                <img src="WhatsApp Image 2025-03-18 at 15.49.47.jpeg" alt="Image 1">
+                <img src="WhatsApp Image 2025-03-18 at 15.49.48.jpeg" alt="Image 2">
+                <img src="WhatsApp Image 2025-03-18 at 15.49.51.jpeg" alt="Image 3">
+                <img src="WhatsApp Image 2025-03-18 at 15.49.51 (1).jpeg" alt="Image 4">
+                <img src="WhatsApp Image 2025-03-18 at 15.49.50.jpeg" alt="Image 5">
+                <img src="WhatsApp Image 2025-03-18 at 15.49.48.jpeg" alt="Image 6">
+            </div>
+         </div>
+    </div>
+ </footer>    
+    
+
+</body>
+</html>
